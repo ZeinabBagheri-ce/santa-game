@@ -67,7 +67,7 @@ const canvas = createElementStyle("canvas");
 const introductionElement = createElementStyle(
   "div",
   `font-size:1.2em;position:absolute;text-align:center;transition:opacity 2s;width:250px`,
-  "هر جایی از صفحه را فشار دهید و نگه دارید تا ، طول آن باید دقیق باشد وگرنه بابانوئل سقوط خواهد کرد"
+  "هر جایی از صفحه را فشار دهید و نگه دارید تا عطای بابا نوئل رشد کند. طول آن باید دقیق باشد وگرنه بابانوئل سقوط خواهد کرد"
 );
 const perfectElement = createElementStyle(
   "div",
