@@ -657,3 +657,13 @@ function addShadow(colour, depth) {
 
 const funs = new Funs('light');
 funs.signature();
+
+//....................................................................
+
+const menu = document.querySelector('.menu');
+const btn = document.querySelector('.menu-list');
+
+btn.addEventListener('click', function () {
+    menu.classList.toggle('active');
+    menu.style.visibility = 'visible';
+})
